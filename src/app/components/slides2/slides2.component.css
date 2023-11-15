@@ -12,3 +12,11 @@
 .carousel{
     width: 100%;
 }
+
+.sld-conteiner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
