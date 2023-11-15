@@ -1,0 +1,36 @@
+<hr>
+<div id="anchor-slide-two" class="sld-conteiner"><h2><p>Veja os vídeos das principais áreas de treinamentos para o corpo:</p></h2></div>
+
+<div class="carousel-block">
+    <div class="carousel-container">
+        <ngb-carousel *ngIf="images">
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper carousel">
+                    <img [src]="images[0]" alt="Random first slide" />
+                </div>
+                <div class="carousel-caption">
+                    <h1>Video Calistenia</h1>
+                    <h1><a  href="https://www.youtube.com/watch?v=4Z0IE2G1bW8">7 Exercícios de Calistenia para fazer em CASA</a></h1>
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper carousel">
+                    <img [src]="images[1]" alt="Random second slide" />
+                </div>
+                <div class="carousel-caption">
+                    <h1>CrossFit</h1>
+                    <h1><a  href="https://www.youtube.com/watch?v=45IztThL63s">OS 21 MELHORES EXERCÍCIOS DE CROSSFIT | SÉRGIO BERTOLUCI</a></h1>
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper carousel">
+                    <img [src]="images[2]" alt="Random third slide" />
+                </div>
+                <div class="carousel-caption">
+                    <h1>Fisiculturismo</h1>
+                    <h1><a  href="https://www.youtube.com/watch?v=E8WXOKNeW-g">ARNOLD CLASSIC - A COMPETIÇÃO</a></h1>
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+</div>

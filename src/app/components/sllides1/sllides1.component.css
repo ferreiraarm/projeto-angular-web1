@@ -1,0 +1,22 @@
+.carousel-block{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-container{
+    width: fit-content;
+}
+
+.carousel{
+    width: 100%;
+}
+
+.sld-conteiner1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

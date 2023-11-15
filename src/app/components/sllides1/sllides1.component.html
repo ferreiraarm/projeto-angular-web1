@@ -1,0 +1,37 @@
+<hr>
+<div id="anchor-slide-one" class="sld-conteiner1"><h2><p>Veja os slides das principais áreas de treinamentos para o corpo:</p></h2></div>
+
+
+<div class="carousel-block">
+	<div class="carousel-container">
+		<ngb-carousel *ngIf="images" >
+			<ng-template ngbSlide>
+				<div class="picsum-img-wrapper carousel">
+					<img [src]="images[0]" alt="Random first slide" />
+				</div>
+				<div class="carousel-caption">
+					<h3>Calistenia</h3>
+					<p>A calistenia é uma forma de treinamento físico que utiliza o peso do próprio corpo para desenvolver força, flexibilidade, equilíbrio e resistência. </p>
+				</div>
+			</ng-template>
+			<ng-template ngbSlide>
+				<div class="picsum-img-wrapper carousel">
+					<img [src]="images[1]" alt="Random second slide" />
+				</div>
+				<div class="carousel-caption">
+					<h3>CrossFit</h3>
+					<p>O CrossFit é um programa de treinamento físico que combina elementos de levantamento de peso, ginástica e condicionamento metabólico em um formato variado e intenso. </p>
+				</div>
+			</ng-template>
+			<ng-template ngbSlide >
+				<div class="picsum-img-wrapper carousel">
+					<img [src]="images[2]" alt="Random third slide" />
+				</div>
+				<div class="carousel-caption">
+					<h3>Fisiculturismo</h3>
+					<p>O fisiculturismo é uma atividade física e um esporte que envolve o desenvolvimento e a tonificação dos músculos do corpo através do treinamento de resistência, dieta específica e repouso adequado. </p>
+				</div>
+			</ng-template>
+		</ngb-carousel>
+	</div>
+</div>
