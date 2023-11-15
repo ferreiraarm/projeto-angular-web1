@@ -11,12 +11,18 @@ import { Slides2Component } from './components/slides2/slides2.component';
 import { Canvas1Component } from './components/canvas1/canvas1.component';
 import { Rating1Component } from './components/rating1/rating1.component';
 import { Sllides1Component } from './components/sllides1/sllides1.component';
+import { Text2Component } from './components/text2/text2.component';
+import { Text3Component } from './components/text3/text3.component';
+import { Text4Component } from './components/text4/text4.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormularioComponent,
     Textos1Component,
+    Text2Component,
+    Text3Component,
+    Text4Component,
   ],
   imports: [
     Rating1Component,
