@@ -5,17 +5,25 @@
 				SubMenu
 			</button>
 			<div ngbDropdownMenu aria-labelledby="dropdownBasic1">
-				<a href="#anchor-form"><button ngbDropdownItem >Formulário</button></a>
-				<a href="#anchor-text"><button ngbDropdownItem >Motivação</button></a>
-				<a href="#anchor-slide-one"><button ngbDropdownItem >Tipos de treinos corporais</button></a>
-				<a href="#anchor-slide-two"><button ngbDropdownItem >Vídeos sobre treinos</button></a>
-				<a href="#anchor-text-2"><button ngbDropdownItem >Calistenia</button></a>
-				<a href="#anchor-text-3"><button ngbDropdownItem >CrossFit</button></a>
-				<a href="#anchor-text-4"><button ngbDropdownItem >Fisiculturismo</button></a>
+
+
+
+
+				<button ngbDropdownItem [routerLink]="['/']">Formulário</button>
 				
+				<button ngbDropdownItem [routerLink]="['/texto1']">Motivação</button>
+				
+
+				<button ngbDropdownItem [routerLink]="['/slide1']">Àreas de treinamento</button>
+				<button ngbDropdownItem [routerLink]="['/slide2']">Vídeos sobre treinamentos</button>
+				<button ngbDropdownItem [routerLink]="['/texto2']">Calistenia</button>
+				<button ngbDropdownItem [routerLink]="['/texto3']">CrossFit</button>
+				<button ngbDropdownItem [routerLink]="['/texto4']">Fisiculturismo</button>
+				
+
 			</div>
 		</div>
 	</div>
 
-	
+
 </div>

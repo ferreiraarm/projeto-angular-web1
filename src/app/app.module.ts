@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
+
+
+
 import { AppComponent } from './app.component';
 import { NgbdDropdownBasic } from './components/dropdown/dropdown.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
@@ -14,6 +16,7 @@ import { Sllides1Component } from './components/sllides1/sllides1.component';
 import { Text2Component } from './components/text2/text2.component';
 import { Text3Component } from './components/text3/text3.component';
 import { Text4Component } from './components/text4/text4.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -32,8 +35,12 @@ import { Text4Component } from './components/text4/text4.component';
     MenuComponent,
     Sllides1Component,
     Slides2Component,
-    Canvas1Component
+    Canvas1Component,
+    BrowserModule,
+    FormsModule,
+    AppRoutingModule
   ],
+ 
   providers: [],
   bootstrap: [AppComponent]
 })
